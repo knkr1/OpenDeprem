@@ -1,9 +1,9 @@
 import NavBar from "./NavBar"
 
-export default function AboveMap(){
+export default function AboveMap({triggerEarthquake}){
     return (
-        <div>
-            <NavBar />
+        <div className="absolute">
+            <NavBar triggerEarthquake={triggerEarthquake}/>
         </div>
     )
 }
