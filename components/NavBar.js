@@ -1,7 +1,7 @@
 // NavBar.js
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-
+import { SimulateEarthquake } from "@/earthquakeHandlers/SimulateEarthquake";
 export default function NavBar({ triggerEarthquake }) {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-slate-900 bg-opacity-30 backdrop-blur-md shadow-md">
@@ -13,7 +13,8 @@ export default function NavBar({ triggerEarthquake }) {
               <span className="absolute inset-0 overflow-hidden rounded-full">
                 <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
               </span>
-              <div className="relative flex space-x-2 items-center z-10 rounded-full bg-slate-950 py-0.5 px-4 ring-1 ring-white/10 ">
+              <div 
+              className="relative flex space-x-2 items-center z-10 rounded-full bg-slate-950 py-0.5 px-4 ring-1 ring-white/10 ">
                 <span>{`Simulate Eartquake`}</span>
                 <svg
                   width="16"
@@ -53,6 +54,7 @@ export default function NavBar({ triggerEarthquake }) {
           {/* Right side: Buttons */}
           <div className="flex items-center space-x-4 flex-1 justify-end">
             <Link
+              target="_blank"
               href="/about"
               className="inline-flex h-10   items-center justify-center rounded-md border border-slate-800 bg-[#060c1a] px-6 font-medium text-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
             >
@@ -62,7 +64,7 @@ export default function NavBar({ triggerEarthquake }) {
               href="/"
               className="inline-flex h-10 animate-shimmer items-center justify-center rounded-md border border-slate-800 bg-[linear-gradient(110deg,#060c1a,45%,#1e2631,55%,#060c1a)] bg-[length:200%_100%] px-6 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50"
             >
-              Bağış
+              Yakında...
             </Link>
           </div>
         </div>

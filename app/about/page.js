@@ -124,36 +124,10 @@ const dummyContent = [
     description: (
       <>
         <p>
-          Adım Kaan, güncel olarak liseye gitmekteyim. 5 yıl önce kendimi
-          yazılım dünyasına attım ve bu noktalara gelebildim. Yazılım alanında
-          biden çok projem var ve oldu. Bu projeyi ise ara tatilde yapmak nasip
-          oldu. Bu yazıdan sonra ne olur bilmiyorum ama belki devam bile
-          edebilir.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </>
     ),
-    badge: "Tanıtım",
-  },
-  {
-    title: "Bu Site Hakkında",
-    description: (
-      <>
-        <p>
-          Sitedeki herşeyi ben yaptım (Component Libraryleri, Bazı Kısımları
-          Saymazsak), benimle beraber sitenin github reposuna eklediğim birkaç
-          tane daha değerli kaynak var leaflet gibi. Tamamen yeniliçki bir
-          sistem kullanıyorum, erişimini çok kolay kılabilmek için web üzerinden
-          tasarladım.
-        </p>
-        <br></br>
-        <p className="font-bold text-thin">
-          Yukarıda şuan template bir resim var, yapım aşaması bitince
-          ekliyeceğim sitenin resmini.
-        </p>
-      </>
-    ),
-    badge: "Site",
-    image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    badge: "Lorem Ipsum.",
   },
 ];

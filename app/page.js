@@ -13,7 +13,8 @@ export default function Home() {
           lat: 38.715,       // Latitude of the earthquake's epicenter
           lng: 37.255,       // Longitude of the earthquake's epicenter
           magnitude: 4,    // Magnitude of the earthquake (e.g., 6.3)
-          depth: 50          // Depth of the earthquake in kilometers (e.g., 10 km)
+          depth: 50,
+          date: "2024.11.19 22:42:18"           // Depth of the earthquake in kilometers (e.g., 10 km)
       };
       setEarthquakeData(data);  // Set the earthquake data to trigger the effect
   };
